@@ -1,0 +1,21 @@
+{
+  "name": "dx3906-blog",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "blog-engine dev",
+    "build": "blog-engine build",
+    "build:all": "blog-engine check",
+    "preview": "blog-engine preview",
+    "new": "blog-engine new",
+    "clean": "blog-engine clean",
+    "setup": "blog-engine setup",
+    "index": "blog-engine index"
+  },
+  "dependencies": {
+    "blog-engine": "github:dx3906999/blog-engine#v0.2.0"
+  }
+}

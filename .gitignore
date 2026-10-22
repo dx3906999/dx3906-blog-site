@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.dev-dist/
+.cache/
+.theme-check/
+.determinism/
+.dide/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
