@@ -1,6 +1,6 @@
-# dx3906-blog
+# dx3906-blog-site
 
-个人博客仓库，使用 [`blog-engine`](https://github.com/dx3906999/blog-engine) 构建。引擎、内置主题和检查工具都在依赖里，这个仓库只放内容和配置。
+个人博客站点仓库，使用 [`blog-engine`](https://github.com/dx3906999/blog-engine) 构建。引擎、内置主题和检查工具都在依赖里，这个仓库只放内容和配置。
 
 ## 本地运行
 
@@ -33,7 +33,7 @@ npm run preview        # 本地预览 dist/
 
 推送到 `main` 后，`.github/workflows/deploy.yml` 会部署到 GitHub Pages。仓库 Settings → Pages 的 Source 需要设置为 **GitHub Actions**。
 
-部署路径是 `https://dx3906999.github.io/dx3906-blog/`。如果你想用自定义域名，在 `site.config.ts` 设置 `site.customDomain`，构建会生成 `dist/CNAME`。
+部署路径是 `https://dx3906999.github.io/dx3906-blog-site/`。如果你想用自定义域名，在 `site.config.ts` 设置 `site.customDomain`，构建会生成 `dist/CNAME`。
 
 ## 配置
 

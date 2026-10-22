@@ -9,7 +9,7 @@ export default defineConfig({
       avatar: '',
     },
     social: [{ label: 'GitHub', url: 'https://github.com/dx3906999' }],
-    repository: { owner: 'dx3906999', name: 'dx3906-blog' },
+    repository: { owner: 'dx3906999', name: 'dx3906-blog-site' },
   },
   locales: {
     default: 'zh',
